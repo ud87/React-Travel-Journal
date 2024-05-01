@@ -30,7 +30,6 @@ nav {
   display: flex;
   gap: 19px;
   max-width: 470px;
-  height: 168px;
   padding: 13px 6.5px;
   margin: 13px auto 13px auto;
 }
