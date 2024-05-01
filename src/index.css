@@ -1,0 +1,13 @@
+:root {
+  --blue: #2B283A;
+  --red: #F55A5A;
+  --grey: #918E9B;
+  --offwhite: #F5F5F5F5;
+  --white: #FFFFFF;
+}
+
+html {
+  font-family: "Inter", "Arial", "Helvetica", "sans-serif";
+  font-size:  0.64rem;
+  background-color: var(--offwhite);
+}

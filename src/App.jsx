@@ -2,14 +2,21 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import data from "./data.js";
+import Nav from "./components/Nav.jsx";
+import TravelCard from "./components/TravelCard.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const travelData = data.map((item) => {
+    return <TravelCard item={item} />;
+  });
+  console.log(travelData);
 
   return (
-    <>
-      <h1>Change this</h1>
-    </>
+    <div className="container">
+      <Nav />
+      {travelData}
+    </div>
   );
 }
 
